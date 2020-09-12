@@ -1,0 +1,44 @@
+<html>
+<head>
+	<title>hello css</title>
+	<style type="text/css">
+		#container{
+			border:2px solid black;
+			display:flex;
+		}
+		#first { background-color:red; }
+		#second { background-color:yellow;order:-1; }
+		#third {background-color:pink; order:1;}
+		#fourth {background-color:orange;order:2; }
+		#fifth {background-color:grey; }
+		
+		.dev{
+				text-align:center;
+				padding:10px;
+				margin:10px;
+				width:150px;
+		}
+		
+		p{
+			color:blue;
+			font-size:20px;
+			font-family:arial;
+		}
+	</style>
+</head>
+<body>
+	<h1>Flexbox-property</h1>
+	<h3>order property</h3>
+	<div id="container">
+		<div id="first" class="dev">About Us </div>
+		<div id="second" class="dev"> Home</div>
+		<div id="third" class="dev"> Contact Us</div>
+		<div id="fourth" class="dev"> Tutorial</div>
+		<div id="fifth" class="dev"> Video</div>
+	</div>
+	<p>This property is used to specify the order of a flexible item relative to the rest of the flexible items 
+		inside the same container.If the element is not a flexible item ,the order property has no effect.We
+		can set this property to number(default 0).</p>
+	
+</body> 
+</html>

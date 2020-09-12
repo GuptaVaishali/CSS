@@ -1,0 +1,43 @@
+<html>
+<head>
+	<title>hello css</title>
+	<style type="text/css">
+		table,th,td{
+			text-transform:uppercase;
+			border:2px solid red;
+			border-collapse:collapse;
+			padding:10px;
+		}
+		table{background-color:pink;}
+		th{background-color:blue;}
+		caption{
+			caption-side:bottom;
+			text-transform:uppercase;
+			font-weight:bold;
+		}
+		tr.collap{
+			visibility:collapse;
+		}
+	</style>
+</head>
+<body>
+	<h1>Table-padding</h1>
+	<p style="font-size:30px; color:red;">This property is used to control the space between border and
+	content in a table.This is used on <td> and <th> elements</p>
+	<table>
+		<caption>student details</caption>
+		<tr>
+			<th>Name</th> <th>Rollno</th> <th>Result</th>
+		</tr>
+		<tr>
+			<td>vaishali</td> <td>51</td> <td>pass</td>
+		</tr>
+		<tr class="collap">
+			<td>sonia</td> <td></td> <td>pass</td>
+		</tr>
+		<tr>
+			<td>sumit</td> <td>47</td> <td>pass</td>
+		</tr>
+	</table>
+</body>
+</html>

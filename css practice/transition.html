@@ -1,0 +1,46 @@
+<html>
+<head>
+	<title>hello css</title>
+	<style type="text/css">
+		p{
+			font-style:Arial;
+			font-size:20px;
+			color:blue;
+		}
+		div{
+			background-color:pink;
+			width:300px;
+			height:400px;
+			transition: all 2s ease-in-out 1s;
+		}
+		div:hover{
+			width:500px;
+			height:300px;
+			background-color:violet;
+		}
+	</style>
+</head>
+<body>
+	<div> </div>
+	<p>transition is used to change property values from one value to another,over a given duration.The transition
+	effect will start when the specified css property changes values.To use tarnsition..we should know the css 
+	property and the duration of effect.
+	Note:-if duration part is not specified ,the transition will have no effect,because its default value is 0.
+	</p>
+	<p>transition shorthand:-transition:transition-property transition-duration transition-timing-function 
+	transition-delay </p>
+	<p>Transition-property:- This property is used to define the name of css property the transition effect is for.
+		always specify the transition-duration property,otherwise the duration is 0,and transition will have 
+		no effect.We can set this property to none(no property will be affected),all(default value),or property.
+		For eg. div{Transition-property:all;}
+	</p>
+	<p>transition-duration:- this property is used to specify how many seconds or miliseconds a transition effect
+	takes to complete.We can set this property to time in form of seconds or miliseconds.The default value of this property is 0,that means no effect will take place.</p>
+	
+	<p>Transition-timing-function:- this property is used to define the speed curve of the transition effect.this property allows a transition effect to change speed over its duration.We can set this property to ease,linear,
+	ease-in,ease-out,ease-in-out,step-start,step-end,steps(int,start or end),cubic-bezier(n,n,n,n).
+	</p>
+	<p>Transition-delay:- this property is used to specify when the transition effect will start.We can set this
+	property to time in the form of seconds or miliseconds.</p> 
+</body> 
+</html>
