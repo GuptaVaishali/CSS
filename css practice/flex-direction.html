@@ -1,0 +1,44 @@
+<html>
+<head>
+	<title>hello css</title>
+	<style type="text/css">
+		#container{
+			border:2px solid black;
+			display:flex;
+			flex-direction:row-reverse;
+		}
+		#first { background-color:red; }
+		#second { background-color:yellow; }
+		#third {background-color:pink;}
+		#fourth {background-color:orange; }
+		#fifth {background-color:grey; }
+		
+		.dev{
+				text-align:center;
+				padding:10px;
+				margin:10px;
+		}
+		
+		p{
+			color:red;
+			font-size:20px;
+			font-family:arial;
+		}
+	</style>
+</head>
+<body>
+	<div id="container">
+		<div id="first" class="dev"> 1</div>
+		<div id="second" class="dev"> 2</div>
+		<div id="third" class="dev"> 3</div>
+		<div id="fourth" class="dev"> 4</div>
+		<div id="fifth" class="dev"> 5</div>
+	</div>
+	<p>This property is used to set the direction of flexible items.if the element is not a flexible item, the flex direction property has no effect.We can set this property to row (default),row-reverse,column,column-reverse.
+	</p>
+	<p>row:- This is used to display the flexible items horizontally as row. </p>
+	<p>row-reverse:- this is used to display the flexible items same as row, but in reverse order. </p>
+	<p>column:- this is used to display the flexible items vertically as columns. </p>
+	<p>column-reverse:-This is used to display the flexible items same as column, but in reverse order.</p>
+</body> 
+</html>

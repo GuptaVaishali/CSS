@@ -1,0 +1,44 @@
+<html>
+<head>
+	<title>hello css</title>
+	<style type="text/css">
+		th,td{
+			text-transform:uppercase;
+			border:2px solid blue;
+			border-collapse:seperated;
+			border-spacing:4px 4px;
+			empty-cells:hide;
+		}
+		table{
+			border:3px solid red;
+			border-spacing:8px 8px;
+		}
+		caption{
+			caption-side:bottom;
+			text-transform:uppercase;
+			font-weight:bold;
+		}
+	</style>
+</head>
+<body>
+	<h1>Empty-cells</h1>
+	<p>This property is used to set whether or not to display borders and backgrounds on empty cells in a table.
+	It will work only when the border-collapse is set to seperate.we can set this property to show(default)
+	or hide.</p>
+	<table>
+		<caption>student details</caption>
+		<tr>
+			<th>Name</th> <th>Rollno</th> <th>Result</th>
+		</tr>
+		<tr>
+			<td>vaishali</td> <td>51</td> <td>pass</td>
+		</tr>
+		<tr>
+			<td>sonia</td> <td></td> <td>pass</td>
+		</tr>
+		<tr>
+			<td>sumit</td> <td>47</td> <td>pass</td>
+		</tr>
+	</table>
+</body>
+</html>

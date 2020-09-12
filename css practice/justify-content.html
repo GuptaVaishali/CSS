@@ -1,0 +1,46 @@
+<html>
+<head>
+	<title>hello css</title>
+	<style type="text/css">
+		#container{
+			border:2px solid black;
+			display:flex;
+			justify-content:space-around;
+		}
+		#first { background-color:red; }
+		#second { background-color:yellow; }
+		#third {background-color:pink;}
+		#fourth {background-color:orange; }
+		#fifth {background-color:grey; }
+		
+		.dev{
+				text-align:center;
+				padding:10px;
+				margin:10px;
+		}
+		
+		p{
+			color:red;
+			font-size:20px;
+			font-family:arial;
+		}
+	</style>
+</head>
+<body>
+	<h1>justify-content</h1>
+	<div id="container">
+		<div id="first" class="dev"> 1</div>
+		<div id="second" class="dev"> 2</div>
+		<div id="third" class="dev"> 3</div>
+		<div id="fourth" class="dev"> 4</div>
+		<div id="fifth" class="dev"> 5</div>
+	</div>
+	<p>This property is used to align the flexible container's items when the items do not use all available space on the main-axis (horizontally).We can set this property to flex-start(default),flex-end,center,
+	space-between,space-around.</p>
+	<p>flex-start:- This is used to position the item at the begining of the container. </p>
+	<p>flex-end:- This is used to position the items at the end of the container.</p>
+	<p>center:- this is used to position the items at the center of the container. </p>
+	<p>space-between:- this is used to position the item with space between the lines. </p>
+	<p>space-around:- This is used to position the item with space before, between, and after the lines.</p>
+</body> 
+</html>

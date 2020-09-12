@@ -1,0 +1,47 @@
+<html>
+<head>
+	<title>hello css</title>
+	<style type="text/css">
+		#container{
+			border:2px solid black;
+			display:flex;
+			height:300px;
+			justify-content:space-around;
+			flex-wrap:wrap;
+		}
+		#first { background-color:red; }
+		#second { background-color:yellow; }
+		#third {background-color:pink;}
+		#fourth {background-color:orange; }
+		#fifth {background-color:blue; }
+		
+		.dev{
+				text-align:center;
+				padding:10px;
+				margin:10px;
+				height:100px;
+				width:150px;
+		}
+		
+		p{
+			color:blue;
+			font-size:20px;
+			font-family:arial;
+		}
+	</style>
+</head>
+<body>
+	<h1>Flex-wrap property</h1>
+	<div id="container">
+		<div id="first" class="dev"> 1</div>
+		<div id="second" class="dev"> 2</div>
+		<div id="third" class="dev"> 3</div>
+		<div id="fourth" class="dev"> 4</div>
+		<div id="fifth" class="dev"> 5</div>
+	</div>
+	<p>This property is used to specify the whether the flexible items should wrap or not.if the elements are not flexible items , the flex-wrap property has no effect.We can set this property to nowrap(default),wrap and wrap-reverse.</p>
+	<p>nowrap:- it specifies that the flexible items will not wrap.</p>
+	<p>wrap:- it specifies that the flexible items will wrap, if necessary.</p>
+	<p>wrap-reverse:- It specifies that the flexible items will wrap ,if necessary ,in reverse order.</p>
+</body> 
+</html>

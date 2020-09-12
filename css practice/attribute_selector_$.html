@@ -1,0 +1,32 @@
+<html>
+<head>
+	<title>hello css</title>
+	<style type="text/css">
+		p[id]{color:red;}
+		p[class="p2"]{color:blue;}
+		div[class $="game"] {color:violet;}
+	</style>
+</head>
+<body>
+	<h1>Attribute selector</h1>
+	<p id="p1">we can set style using attribute or its value. </p>
+	<p class="p2">set style using attribute- syntax:- selector [attribute] {css};</p>
+	<p id="p2">set style using attribute and its value.syntax:- selector [attribute="value"] {css}; </p>
+	<p>set style using an attributor value containing a specified word. syntax:- [attribute ~="value"]{css}</p>
+	<p>set style using with the specified attribute starting with the specified value.
+	syntax:- [attribute |="value"] {css}; </p>
+	<p>set style whose attribute value begins with  a specified value.It is not necessary that value should be 
+	a whole word.syntax:- [attribute ^="value"] {css}; </p>
+	<p>set style whose attribute value ends with  a specified value.It is not necessary that value should be 
+	a whole word.syntax:- [attribute $="value"] {css}; </p>
+	<div class="game">game </div>
+	<div class="supergame">supergame </div>
+	<div class="game-super">game-super </div>
+	<div class="gamesuper">gamesuper </div>
+	<div class="super-game">super-game </div>
+	<div class="game super">game super </div>
+	<div class="super game">super game </div>
+	<div class="super">super </div>
+	
+</body> 
+</html>

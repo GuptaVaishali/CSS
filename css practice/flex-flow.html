@@ -1,0 +1,44 @@
+<html>
+<head>
+	<title>hello css</title>
+	<style type="text/css">
+		#container{
+			border:2px solid black;
+			display:flex;
+			flex-flow:row-reverse wrap;
+		}
+		#first { background-color:red; }
+		#second { background-color:yellow; }
+		#third {background-color:pink;}
+		#fourth {background-color:orange; }
+		#fifth {background-color:grey; }
+		
+		.dev{
+				text-align:center;
+				padding:10px;
+				margin:10px;
+				width:150px;
+		}
+		
+		p{
+			color:blue;
+			font-size:20px;
+			font-family:arial;
+		}
+	</style>
+</head>
+<body>
+	<h1>Flex-property</h1>
+	<h3>Flex-flow property</h3>
+	<div id="container">
+		<div id="first" class="dev"> 1</div>
+		<div id="second" class="dev"> 2</div>
+		<div id="third" class="dev"> 3</div>
+		<div id="fourth" class="dev"> 4</div>
+		<div id="fifth" class="dev"> 5</div>
+	</div>
+	<p>It is a shorthand property for the flex-direction and the flex-wrap properties.if the elements are not 
+	flexible items, the flex-flow property has no effect.</p>
+	
+</body> 
+</html>
